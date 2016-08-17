@@ -1,0 +1,111 @@
+/*
+Theme Name: AndrinaZerpa
+Theme URI: www.miWeb.com
+Description: description del tema
+Version: 1
+Autor: auto
+Autor URL: direccion web
+*/
+
+body{
+background-color: #D9D6D0;
+  }
+
+
+.navbar{
+  margin-bottom: 0;
+  background-color: #111;
+}
+
+.jumbotron{
+  background-color: #755091;
+  color: #D9D6D0;
+  padding: 2%;
+}
+
+.breadcrumb a{
+  color:  #755091;
+}
+
+.main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+
+
+
+.post .post-title a{
+  color: #111;
+
+}
+
+
+
+
+.post .thumb{
+  margin-right: 10px;
+  width: 40%;
+}
+
+
+.post .thumb img{
+  width: 100%;
+}
+
+.post-contenido{
+  font-size:20px;
+}
+
+.post-contenedor-botones{
+  width: 100%;
+}
+
+footer{
+  background-color: #755091;
+  padding: 3%;
+}
+
+
+.list-group .active{
+  background-color: #04738C;
+  border: 1px solid #04738C;
+}
+
+.btn-primary{
+  background-color: #04738C;
+  border: 1px solid #04738C;
+}
+
+.btn-success{
+  background-color: #35648C;
+  border: 1px solid #35648C;
+
+}
+
+
+.btn-success:hover{
+  background-color:#755091;
+  border: 1px solid #755091;
+
+}
+
+.btn-success .badge{
+  color: #333;
+}
+
+.pagination>li>a{
+  color: #333;
+}
+
+@media screen and (max-width: 768px){
+  .post .thumb{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
